@@ -2,6 +2,8 @@
 
 An example using a random function called [choices](https://docs.python.org/3/library/random.html#functions-for-sequences). This function takes in a population list, a list of their respective weights and k a size of the list of elements choosen. 
 
+## Explanation
+
 First we need to import the random module
 
 ```python
@@ -38,9 +40,7 @@ class TreasureChest:
         return item[0]
 ```
 
-The open method uses the choices function to randomly choose an item depending on their weight defined as their rarity. 
-
-To test this out we can create two lists, one two hold the rare items picked and another to hold the common items picked. 
+The open method uses the choices function to randomly choose an item depending on their weight defined as their rarity. To test this out we can create two lists, one two hold the rare items picked and another to hold the common items picked. 
 
 ```python
 rare_items = []
